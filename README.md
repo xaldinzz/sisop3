@@ -104,7 +104,7 @@ Dengan chmod 700, semua akan ditolak kecuali oleh user root.
 Ini memastikan bahwa hanya user dengan UID 0 (root) yang bisa masuk ke folder tersebut. User lain akan ditolak.
 
 - **Screenshot:**
-- ![image alt]()
+- ![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-23%2019-52-48.png?raw=true)
 
 ### Soal 5
 
@@ -116,15 +116,20 @@ Ini memastikan bahwa hanya user dengan UID 0 (root) yang bisa masuk ke folder te
 
 - **Code:**
 
-  `put your answer here`
+chown 1001:100 OS/home/Budiman
+chmod 700 OS/home/Budiman
+
 
 - **Explanation:**
+- Untuk nomor 5,, kami harus membuat user-user yang di miliki di sistem operasi kami hanya bisa memakses file file yang berada di direktorinya masih masing. Ini penjelasan dari kode berikut:
+  1001 → UID milik user Budiman
 
-  `put your answer here`
+100 → GID default user group  
+berbeda dengan root tdi yang mengharuskan kita untuk membuat root super user di nomor 5 ini budiman hanya di minta untuk membuat user-user(selain root) hanya bisa mengakses filenya sendiri.
 
 - **Screenshot:**
 
-  `put your answer here`
+![image alt]()
 
 ### Soal 6
 
@@ -144,7 +149,7 @@ Ini memastikan bahwa hanya user dengan UID 0 (root) yang bisa masuk ke folder te
 
 - **Screenshot:**
 
-  `put your answer here`
+![image alt]()
 
 ### Soal 7
 
@@ -164,7 +169,7 @@ Ini memastikan bahwa hanya user dengan UID 0 (root) yang bisa masuk ke folder te
 
 - **Screenshot:**
 
-  `put your answer here`
+![image alt]()
 
 ### Soal 8
 
@@ -184,7 +189,7 @@ Ini memastikan bahwa hanya user dengan UID 0 (root) yang bisa masuk ke folder te
 
 - **Screenshot:**
 
-  `put your answer here`
+![image alt]()
 
 ### Soal 9
 
