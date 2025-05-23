@@ -158,7 +158,7 @@ Disoal No 6 ini Budiman disuruh untuk membuat banner agar memperindah sistem ope
 
 - **Screenshot:**
 
-![image alt]()
+![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-23%2020-55-44.png?raw=true)
 
 ### Soal 7
 
@@ -170,11 +170,14 @@ Disoal No 6 ini Budiman disuruh untuk membuat banner agar memperindah sistem ope
 
 - **Code:**
 
-  `put your answer here`
+  `cat /etc/banner
+echo "Helloo $USER"
+export PS1="\[\e[1;32m\]\u@\h:\w\$ \[\e[0m\]"
+`
 
 - **Explanation:**
 
-  `put your answer here`
+  `Untuk soal nomor 7 Sitem Operasi Budiman diharuskan untuk menyambut user yang sedang login, Disitu terdapat banner dan juga ucapan Hello user yang sedang login. untuk PS1 adalah prompt seperti terminal asli Linux.`
 
 - **Screenshot:**
 
@@ -190,11 +193,22 @@ Disoal No 6 ini Budiman disuruh untuk membuat banner agar memperindah sistem ope
 
 - **Code:**
 
-  `put your answer here`
+  ```
+  echo "[INFO] getty running on ttyS0" > /dev/console
+  /bin/getty -L ttyS0 115200 vt100
+  sleep 1
+done```
 
 - **Explanation:**
-
-  `put your answer here`
+Untuk no. 8 Dikarenakan Dosen budiman memiliki kesulitan untuk melihat Budiman di Harus membuat Sistem Operasi Budiman harus menampilkan tampilan terminal ketika menjalankan Sistem Operasi.
+`palankan getty di ttyS0, yaitu serial console QEMU (-nographic mode).
+getty adalah program yang:
+Membuka terminal (tty)
+Menampilkan prompt login:
+Setelah user isi username, getty akan menjalankan login
+-L → jangan coba deteksi modem
+ttyS0 → serial terminal aktif di QEMU
+`
 
 - **Screenshot:**
 
