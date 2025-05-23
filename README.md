@@ -94,12 +94,14 @@ praktikan2:praktikan2
 - **Code:**
 
   `chown 0:0 OS/home/root
+
 chmod 700 OS/home/root
 `
 
 - **Explanation:**
-
-  `put your answer here`
+Untuk soal nomor 4 ini kita di minta untuk membuat user root menjadi super user maka dari itu kami membuat kode seperti di atas berikut penjelasannya:
+Dengan chmod 700, semua akan ditolak kecuali oleh user root.
+Ini memastikan bahwa hanya user dengan UID 0 (root) yang bisa masuk ke folder tersebut. User lain akan ditolak.
 
 - **Screenshot:**
 
