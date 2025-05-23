@@ -93,7 +93,9 @@ praktikan2:praktikan2
 
 - **Code:**
 
-  `put your answer here`
+  `chown 0:0 OS/home/root
+chmod 700 OS/home/root
+`
 
 - **Explanation:**
 
