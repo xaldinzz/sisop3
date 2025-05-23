@@ -212,7 +212,7 @@ ttyS0 → serial terminal aktif di QEMU
 
 - **Screenshot:**
 
-![image alt]()
+![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-23%2021-04-54.png?raw=true)
 
 ### Soal 9
 
