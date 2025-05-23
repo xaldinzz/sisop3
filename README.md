@@ -104,8 +104,7 @@ Dengan chmod 700, semua akan ditolak kecuali oleh user root.
 Ini memastikan bahwa hanya user dengan UID 0 (root) yang bisa masuk ke folder tersebut. User lain akan ditolak.
 
 - **Screenshot:**
-
-  `put your answer here`
+- ![image alt]()
 
 ### Soal 5
 
