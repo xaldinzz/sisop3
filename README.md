@@ -129,8 +129,8 @@ berbeda dengan root tdi yang mengharuskan kita untuk membuat root super user di 
 
 - **Screenshot:**
 
-![image alt]()
-
+![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-23%2020-21-25.png?raw=true)
+```Penjelasan: Difoto ini aku memberi contoh bahwa aku sedang di dalam sistem operasi Budiman Disaat aku memperintah Ls dia menunjukan file di dalamnya tetapi ketika aku melakukan hal yang sama di User guest dia memberi pesan Access Denied.```
 ### Soal 6
 
 > Dosen Budiman menginginkan sistem operasi yang **stylish**. Budiman memiliki ide untuk membuat sistem operasinya menjadi stylish. Ia meminta kamu untuk menambahkan tampilan sebuah banner yang ditampilkan setelah suatu user login ke dalam sistem operasi Budiman. Banner yang diinginkan Budiman adalah tulisan `"Welcome to OS'25"` dalam bentuk **ASCII Art**. Buatkanlah banner tersebut supaya Budiman senang! (Hint: gunakan text to ASCII Art Generator)
