@@ -2,7 +2,7 @@
 |    NRP     |      Name      |
 | :--------: | :------------: |
 | 5025221000 | Student 1 Name |
-| 5025221000 | Student 2 Name |
+| 5025241184 | Naufaldi Faqih Abimanyu |
 | 5025221000 | Student 3 Name |
 
 # Praktikum Modul 3 _(Module 3 Lab Work)_
