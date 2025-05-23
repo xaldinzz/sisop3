@@ -181,7 +181,7 @@ export PS1="\[\e[1;32m\]\u@\h:\w\$ \[\e[0m\]"
 
 - **Screenshot:**
 
-![image alt]()
+![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-23%2021-04-36.png?raw=true)
 
 ### Soal 8
 
