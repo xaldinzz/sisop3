@@ -33,10 +33,30 @@ _One sunny morning, Budiman, an Informatics student, was assigned by his lecture
   mkdir -p osboot
   cd osboot
   ```
+  3.
+  ```
+  wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.1.tar.xz
+  tar -xvf linux-6.1.1.tar.xz
+  cd linux-6.1.1
+  ```
+  4.
+  ```
+  make tinyconfig
+  make menuconfig
+  ```
+  5.
+  ```
+  make -j$(nproc)
+  ```
+  6.
+  ```
+  cp arch/x86/boot/bzImage ..
+  ```
 
 - **Explanation:**
 
-  `put your answer here`
+  1.
+  `Kode pertama untuk mengupdate versi sistem kita lalu kita juga menginstall bebrapa software pendukung seperti qemu,build-essential,flex,bison, dan lainnya`
 
 - **Screenshot:**
 
