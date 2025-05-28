@@ -265,7 +265,7 @@ g++ main.cpp -o budiman
 
 - **Screenshot:**
 
-  `put your answer here`
+  `![image alt]()`
 
 ### Soal 10
 
@@ -276,8 +276,8 @@ g++ main.cpp -o budiman
 **Answer:**
 
 - **Code:**
-
-  `mkdir -p iso/boot/grub
+```
+  mkdir -p iso/boot/grub
 cp bzImage iso/boot/
 cp initramfs.cpio.gz iso/boot/
 
@@ -292,7 +292,7 @@ menuentry "OS Budiman" {
 EOF
 
 grub-mkrescue -o osbudiman.iso iso/
-`
+```
 
 - **Explanation:**
 
@@ -305,7 +305,7 @@ Menggunakan grub-mkrescue untuk membungkus semuanya menjadi file ISO bernama osb
 
 - **Screenshot:**
 
-  `put your answer here`
+![image alt]()
 
 ---
 
