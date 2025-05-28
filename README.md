@@ -64,7 +64,7 @@ _One sunny morning, Budiman, an Informatics student, was assigned by his lecture
 
 - **Screenshot:**
 
-  `put your answer here`
+![imagealt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-28%2021-08-06-2.png?raw=true)
 
 ### Soal 2
 
