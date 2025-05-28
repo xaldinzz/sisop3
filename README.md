@@ -252,11 +252,16 @@ ttyS0 → serial terminal aktif di QEMU
 
 - **Code:**
 
-  `put your answer here`
+  `git clone https://github.com/morisab/budiman-text-editor.git
+cd budiman-text-editor
+
+g++ main.cpp -o budiman
+./budiman
+`
 
 - **Explanation:**
 
-  `put your answer here`
+  `untuk nomor 9 kami di kasih github untuk mendownload binary text editor, Jadi yang Budiman lakukan adalah melakukan git clone kepada github dan menjalankan eksekusinya`
 
 - **Screenshot:**
 
@@ -272,11 +277,31 @@ ttyS0 → serial terminal aktif di QEMU
 
 - **Code:**
 
-  `put your answer here`
+  `mkdir -p iso/boot/grub
+cp bzImage iso/boot/
+cp initramfs.cpio.gz iso/boot/
+
+cat > iso/boot/grub/grub.cfg <<EOF
+set timeout=0
+set default=0
+
+menuentry "OS Budiman" {
+    linux /boot/bzImage console=ttyS0
+    initrd /boot/initramfs.cpio.gz
+}
+EOF
+
+grub-mkrescue -o osbudiman.iso iso/
+`
 
 - **Explanation:**
 
-  `put your answer here`
+  `Membuat struktur direktori iso/boot/grub sebagai dasar sistem ISO berbasis GRUB.
+Menyalin bzImage (kernel hasil kompilasi) dan initramfs.cpio.gz (initramfs yang sudah dibuat) ke dalam folder ISO.
+Membuat file konfigurasi grub.cfg yang berisi instruksi boot GRUB:
+Memuat kernel dengan linux /boot/bzImage console=ttyS0
+Memuat initramfs dengan initrd /boot/initramfs.cpio.gz
+Menggunakan grub-mkrescue untuk membungkus semuanya menjadi file ISO bernama osbudiman.iso.`
 
 - **Screenshot:**
 
