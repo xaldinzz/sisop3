@@ -55,8 +55,7 @@ _One sunny morning, Budiman, an Informatics student, was assigned by his lecture
 
 - **Explanation:**
 
-  1.
-  `Kode pertama untuk mengupdate versi sistem kita lalu kita juga menginstall bebrapa software pendukung seperti qemu,build-essential,flex,bison, dan lainnya`
+  1.`Kode pertama untuk mengupdate versi sistem kita lalu kita juga menginstall bebrapa software pendukung seperti qemu,build-essential,flex,bison, dan lainnya`
 
 - **Screenshot:**
 
