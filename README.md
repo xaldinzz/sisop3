@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Eu-CByJh)
 |    NRP     |      Name      |
 | :--------: | :------------: |
-| 5025221000 | Student 1 Name |
+| 5025241181 | Muhammad Naufal Hadaya Setiawan |
 | 5025241184 | Naufaldi Faqih Abimanyu |
 | 5025221000 | Student 3 Name |
 
@@ -23,7 +23,8 @@ _One sunny morning, Budiman, an Informatics student, was assigned by his lecture
 
 - **Code:**
 
-  `put your answer here`
+  ``1. sudo apt -y update
+sudo apt -y install qemu-system build-essential bison flex libelf-dev libssl-dev bc grub-common grub-pc libncurses-dev libssl-dev mtools grub-pc-bin xorriso tmux``
 
 - **Explanation:**
 
