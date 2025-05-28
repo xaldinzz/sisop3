@@ -23,7 +23,16 @@ _One sunny morning, Budiman, an Informatics student, was assigned by his lecture
 
 - **Code:**
 
-  `put your answer here`
+  1.
+  ```
+  sudo apt -y update
+  sudo apt -y install qemu-system build-essential bison flex libelf-dev libssl-dev bc grub-common grub-pc libncurses-dev libssl-dev mtools grub-pc-bin xorriso tmux
+  ```
+  2.
+  ```
+  mkdir -p osboot
+  cd osboot
+  ```
 
 - **Explanation:**
 
