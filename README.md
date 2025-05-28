@@ -265,7 +265,7 @@ g++ main.cpp -o budiman
 
 - **Screenshot:**
 
-  `![image alt]()`
+  `![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-28%2017-23-30.png?raw=true)`
 
 ### Soal 10
 
@@ -305,7 +305,7 @@ Menggunakan grub-mkrescue untuk membungkus semuanya menjadi file ISO bernama osb
 
 - **Screenshot:**
 
-![image alt]()
+![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-28%2017-28-47.png?raw=true)
 
 ---
 
