@@ -251,13 +251,13 @@ ttyS0 → serial terminal aktif di QEMU
 **Answer:**
 
 - **Code:**
-
-  `git clone https://github.com/morisab/budiman-text-editor.git
+```
+git clone https://github.com/morisab/budiman-text-editor.git
 cd budiman-text-editor
 
 g++ main.cpp -o budiman
 ./budiman
-`
+```
 
 - **Explanation:**
 
