@@ -56,6 +56,11 @@ _One sunny morning, Budiman, an Informatics student, was assigned by his lecture
 - **Explanation:**
 
   1.`Kode pertama untuk mengupdate versi sistem kita lalu kita juga menginstall bebrapa software pendukung seperti qemu,build-essential,flex,bison, dan lainnya`
+  2.`Di Sini kita membuat direktori bernama osboot yang akan digunakan untuk menyimpan semua hal tentang mini OS yang akan kita buat`
+  3.`Disini kita akan mengunduh sumber kode linux, dan setelah terunduh akan diekstrak ke dalam direktori linux-6.1.1`
+  4.`Kernel Linux perlu dikonfigurasi sebelum dikompilasi. Kita akan memulai dengan menggunakan konfigurasi minimal menggunakan make tinyconfig. Setelah itu, kita bisa menyesuaikan konfigurasi lebih lanjut dengan menggunakan make menuconfig untuk mengaktifkan fitur-fitur yang diperlukan oleh sistem operasi yang akan kita buat. Beberapa pengaturan yang penting untuk diaktifkan adalah dukungan untuk virtualisasi, file systems, driver perangkat, serta jaringan. Nah untuk penyesuainnya terdapat di modul sisop bab 3`
+  5.`Setelah selesai mengkonfigurasi, Hal selanjutnya yaitu mengkompile source code linux tadi`
+  6.`Setelah kompilasi selesai, kita akan mendapatkan file bzImage di dalam direktori arch/x86/boot/. Pindahkan file ini ke direktori osboot untuk persiapan langkah selanjutnya, yaitu pembuatan root filesystem dan emulasi menggunakan QEMU.`
 
 - **Screenshot:**
 
@@ -71,11 +76,11 @@ _One sunny morning, Budiman, an Informatics student, was assigned by his lecture
 
 - **Code:**
 
-  `put your answer here`
+  ```mkdir -p myramdisk/{bin,dev,proc,tmp,sys,sisop}```
 
 - **Explanation:**
 
-  `put your answer here`
+  `Kita disini membuat direktori yang diminta dan dimasukkan dalam direktori myramdisk`
 
 - **Screenshot:**
 
@@ -100,12 +105,36 @@ praktikan2:praktikan2
 **Answer:**
 
 - **Code:**
-
-  `put your answer here`
+  1.`mkdir -p myramdisk/{home/root,Budiman,guest,praktikan1,praktikan2}`
+  2.
+  ```
+  openssl passwd -1 Iniroot
+  openssl passwd -1 PassBudi
+  openssl passwd -1 guest
+  openssl passwd -1 praktikan1
+  openssl passwd -1 praktikan2
+  ```
+  3.
+  ```
+  mkdir -p myramdisk/etc/
+  nano myramdisk/etc/passwd
+  ```
+  4.
+  ```
+  root:<<hasilgeneratorrootpassword>>:0:0:root:/root:/bin/sh
+  Budiman:<<hasilgeneratorrootpassword>>:1001:100:Budimam:/home/Budiman:/bin/sh
+  guest:<<hasilgeneratorrootpassword>>:1002:100:guest:/home/guest:/bin/sh
+  praktikan1:<<hasilgeneratorrootpassword>>:1003:100:praktikan1:/home/praktikan1:/bin/sh
+  praktikan2:<<hasilgeneratorrootpassword>>:1004:100:praktikan2:/home/praktikan2:/bin/sh
+  ```
 
 - **Explanation:**
 
-  `put your answer here`
+  1.
+  `Kode pertama untuk membuat direktori home yang di dalamnya berisi direktori user user yang akan dibuat`
+2.`Lalu kita akan membuat hash untuk password tiap udernya`
+3.`Disini kita akan membuat direktori etc dan membuat file passwd untuk menyimpan info user beserta passwordnya`
+4.`Kita memasukkan hash yang telah didapat pada langkah 2 kedalam file passwd dengan template seperti langkah 4`
 
 - **Screenshot:**
 
