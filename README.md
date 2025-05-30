@@ -294,7 +294,7 @@ g++ main.cpp -o budiman
 
 - **Screenshot:**
 
-  `![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-28%2017-23-30.png?raw=true)`
+  ![image alt](https://github.com/xaldinzz/sisop3/blob/main/Screenshot%20from%202025-05-28%2017-23-30.png?raw=true)
 
 ### Soal 10
 
